@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A product landing page</title>
 </head>
+
 <body>
-    
+    <header id="header">
+        <img id="header-img"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F63385289%3Fv%3D4&f=1&nofb=1"
+            alt="logo">
+        <nav id="nav-bar">
+            <a class="nav-link" href="">Product description</a>
+            <a class="nav-link" href="">A video walkthrough</a>
+            <a class="nav-link" href="">Reviews</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h3>A privacy-first, open-source knowledge base</h3>
+                <p>Logseq is a joyful, open-source outliner that works on top of local plain-text Markdown and Org-mode
+                    files. Use it to write, organize and share your thoughts, keep your to-do list, and build your own
+                    digital garden.</p>
+            </div>
+            <div>
+                <h3>Features:</h3>
+                <ul>
+                    <li>Ease of writing notes : open up and off you go</li>
+                    <li>Outliner : Can structure your notes how you wish</li>
+                    <li>Note linking : create links between notes at both a page and block-level</li>
+                    <li>To-do list : easily create to-do lists</li>
+                    <li>Graph View : Visualise a page or your notes collection in a graph</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cy5A-_S1bnU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section>
+            <h3>What people are say:</h3>
+            <div>
+                <p>I'm using @logseq + @obsdmd! Logseq is an outliner + task management that works well with my "18,000
+                    things at once" daily way of thinking. It's also connected to Obsidian, where I keep my longer term
+                    research that benefits from structured documents.</p>
+                <p>Freaking *loving* @logseq since I started using it on the desktop.
+                    Mashup of roam and org-mode's task management is making me very happy so far, even in 0.0.13. Super
+                    impressed as giving me all the things I like about roam, emacs org-mode, and notion together.</p>
+                <p>Every time I use @logseq I'm thinking, I needed this years ago. And the gleefully look at a future
+                    where I had this for years.
+                </p>
+                <p>Ok, I'm having an absolute BLAST using @logseq for my DevLog and Tech notes that need more structure
+                    and organization. </p>
+            </div>
+
+        </section>
+        <section>
+            <form id="form">
+                <h3>Enter your email for more informations</h3>
+                <input id="email" type="email" placeholder="insert your email here">
+                <input id="submit" type="submit">
+            </form>
+        </section>
+    </main>
 </body>
+
 </html>
